@@ -48,3 +48,8 @@ function App() {
 }
 
 export default App;
+{/*
+[ ] Work on link styling
+[ ] Create components for right side content 
+[ ]   
+*/}
