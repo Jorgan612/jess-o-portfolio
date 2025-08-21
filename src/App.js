@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 
 import Menu from './menu/Menu';
+import Links from './links/Links';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState('about')
@@ -28,18 +29,9 @@ function App() {
             Hello, I’m <span className='highlight'>Jess</span>! I’m a front-end software engineer with a passion to make intuitive user experiences.
           </div>
         </div>
-        <div className='details'>
-          <div>
-            <a href='' target='_blank'>Contact Me</a>
-          </div>
-          <div>
-            <a href='https://www.linkedin.com/in/jessicaorgan/' target='_blank'>LinkedIn</a>
-          </div>
-          <div>
-            <a href='https://github.com/Jorgan612' target='_blank'>GitHub</a>
-          </div>
-        </div>
+        <Links />
       </div>
+
       <div className='right-content'>
 
       </div>
