@@ -1,22 +1,74 @@
 import "../Content.scss";
+import "./Experience.scss";
 
 function Experience() {
     return (
-        <>
-        
-            Mapware
-            Mapware
-            Full-time · 2 yrs 3 mosFull-time · 2 yrs 3 mos
-            RemoteRemote
-            Software Engineer
-            Software Engineer
-            Jan 2024 - Jan 2025 · 1 yr 1 moJan 2024 to Jan 2025 · 1 yr 1 mo
-            Promoted to software engineer after demonstrating strong coding skills and the ability to handle more complex projects. Tasks remained front-end focused and consisted of enhancing the functionality of the application, owning and implementing new features, and improving the user experience of existing features.Promoted to software engineer after demonstrating strong coding skills and the ability to handle more complex projects. Tasks remained front-end focused and consisted of enhancing the functionality of the application, owning and implementing new features, and improving the user experience of existing features.…see more
-            Junior Front-End Software Engineer
-            Junior Front-End Software Engineer
-            Nov 2022 - Jan 2024 · 1 yr 3 mosNov 2022 to Jan 2024 · 1 yr 3 mos
-            Developed and maintained front-end features for the application using Angular. Collaborated with the back-end team to implement new features and improve the user experience.
-        </>
+        <div className="experience-section">
+            <div className="item">
+                <p className="employer">Mapware | Elizabeth, Colorado/Remote </p>
+                <p><span className="job-title highlight">Software Engineer:</span> January 2024 - January 2025</p>
+                <ul>
+                    <li>
+                        Worked in the photogrammetry application that processed geotagged images into 2D/3D terrain models.
+                    </li>
+                    <li>
+                        Owned key UI components, enhancing user experience through thoughtful design, leading the implementation of features such as map labeling and contour line adjustment controls.
+                    </li>
+                    <li>
+                        Collaborated and communicated with multiple teams to refine requirements and ensure intuitive UX.
+
+                    </li>
+                    <li>
+                        Refactored legacy code to improve maintainability and scalability across the front-end architecture.
+                    </li>
+                    <li>
+                        Conducted code reviews and mentored junior engineers, contributing to team growth and best practices.
+                    </li>
+                </ul>
+
+                <p><span className="job-title highlight">Junior Front-End Software Engineer:</span> Novembewr 2022 - January 2024</p>
+                <ul>
+                    <li>
+                        Built responsive, visually engaging UI components using Angular.
+                    </li>
+                    <li>
+                        Maintained high standards of code quality through rigorous testing and attention to detail.
+                    </li>
+                    <li>
+                        Partnered with back-end engineers to integrate APIs and deliver seamless end-to-end user experiences.
+                    </li>
+                    <li>
+                        Participated in agile ceremonies and contributed to sprint planning, retrospectives, and team demos.
+                    </li>
+                    <li>
+                        Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
+                    </li>
+                </ul>
+            </div>
+
+            <div className="item">
+                <p className="employer">Mountain View Pain Center | Centennial, Colorado</p>
+                <p><span className="job-title highlight">Physical Therapist Assistant:</span> November 2018 - June 2021</p>
+                  <ul>
+                    <li>
+                        Maintained open communication and collaboration with providers in a multidisciplinary pain clinic to ensure positive patient outcomes.
+
+                    </li>
+                    <li>
+                        Leveraged critical thinking and adaptability to overcome patient-specific challenges.
+                    </li>
+                    <li>
+                        Educated patients on their tailored plan of care and important precautions to accelerate patient outcomes.
+                    </li>
+                    <li>
+                        Performed telehealth visits, effectively achieving patient outcomes in a remote environment.
+                    </li>
+                    <li>
+                        Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
+                    </li>
+                </ul>
+            </div>
+        </div>
     )
 }
 
