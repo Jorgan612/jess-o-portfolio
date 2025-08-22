@@ -21,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <div className='left-content'>
-        <Menu select={select} selectedOption={selectedOption} />
         <div>
           <header className="App-header">
             <span className='highlight'>Jess</span>ica Organ
@@ -29,6 +28,7 @@ function App() {
           <h3>Front End Software Engineer</h3>
         </div>
         <Links />
+        <Menu select={select} selectedOption={selectedOption} />
         <div className='footer-note'>
           <p>This portfolio was built with <span className='highlight'>React</span> and deployed with <span className='highlight'>[insert deployment thing here]</span>.</p>
         </div>

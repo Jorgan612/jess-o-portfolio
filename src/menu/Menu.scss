@@ -1,16 +1,27 @@
   .menu {
     display: flex;
-    justify-content: flex-start;
-    gap: 10rem;
-    height: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40%;
+
+    // gap: 10rem;
     box-sizing:content-box;
     padding: 1rem 0;
+    // border: 1px solid yellow;
 
-    span {
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40%;
+      width: 40%;
+      margin: 8px;
       padding: 4px;
       font-size: 18px;
       font-weight: bold;
+      border-radius: 4px;
       cursor: pointer;
+      // border: 2px solid orange;
     }
 
     span:hover {
