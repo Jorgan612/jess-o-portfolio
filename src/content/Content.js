@@ -2,6 +2,7 @@ import About from "./about/About";
 import Experience from  "./experience/Experience";
 
 import './Content.scss';
+import '../App.scss';
 
 function Content({selectedOption}) {
 

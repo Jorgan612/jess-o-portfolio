@@ -8,6 +8,7 @@ function Links() {
                 <a href='mailto:Jorgan612@gmail.com' target='_blank'>Contact Me</a>
                 <a href='https://www.linkedin.com/in/jessicaorgan/' target='_blank'>LinkedIn</a>
                 <a href='https://github.com/Jorgan612' target='_blank'>GitHub</a>
+                <a href='https://app.thestorygraph.com/profile/jess_o612'>The StoryGraph</a>
             </div>
         </div>
     );

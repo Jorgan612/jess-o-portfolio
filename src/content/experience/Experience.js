@@ -26,7 +26,7 @@ function Experience() {
                     </li>
                 </ul>
 
-                <p><span className="job-title highlight">Junior Front-End Software Engineer:</span> Novembewr 2022 - January 2024</p>
+                <p><span className="job-title highlight">Junior Front-End Software Engineer:</span> November 2022 - January 2024</p>
                 <ul>
                     <li>
                         Built responsive, visually engaging UI components using Angular.

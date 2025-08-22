@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 import Menu from './menu/Menu';
@@ -9,14 +8,11 @@ import Content from "./content/Content";
 function App() {
   const [selectedOption, setSelectedOption] = useState('About Me')
 
-
   const select = (option) => {
     console.log("click!", option)
     setSelectedOption(option.name)
     console.log('selectedOption', selectedOption)
   }
-
-
 
   return (
     <div className="App">
@@ -27,8 +23,10 @@ function App() {
           </header>
           <h3>Front End Software Engineer</h3>
         </div>
-        <Links />
-        <Menu select={select} selectedOption={selectedOption} />
+        <div className='selections'>
+          <Links />
+          <Menu select={select} selectedOption={selectedOption} />
+        </div>
         <div className='footer-note'>
           <p>This portfolio was built with <span className='highlight'>React</span> and deployed with <span className='highlight'>[insert deployment thing here]</span>.</p>
         </div>
@@ -43,8 +41,15 @@ function App() {
 }
 
 export default App;
-{/*
-[ ] Work on link styling
-[ ] Create components for right side content 
-[ ]   
-*/}
+
+
+{
+  /*
+
+    [ ] Make sure all content sections have overflow to enable scrollbar if needed to look the same.
+    [ ] Fill out Project section
+    [ ] Fill out Education section
+    [ ] 
+
+  */
+}
