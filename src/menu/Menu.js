@@ -13,7 +13,7 @@ function Menu({select, selectedOption}) {
     return (
         <div className='menu'>
             { options.map((option) => (
-                <span className={selectedOption === option.id ? 'selected' : 'default'} key={option.id} onClick={() => {select(option.id)}}>{option.name}</span>
+                <span className={selectedOption === option.name ? 'selected' : 'default'} key={option.id} onClick={() => {select(option)}}>{option.name}</span>
             ))}
         </div>
     );

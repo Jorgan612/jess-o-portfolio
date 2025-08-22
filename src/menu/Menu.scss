@@ -1,7 +1,10 @@
   .menu {
     display: flex;
-    justify-content: space-around;
-    margin: 2rem 0;
+    justify-content: flex-start;
+    gap: 10rem;
+    height: 5%;
+    box-sizing:content-box;
+    padding: 1rem 0;
 
     span {
       padding: 4px;
