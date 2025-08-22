@@ -44,6 +44,16 @@ function Experience() {
                         Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
                     </li>
                 </ul>
+                <div className="tech-stack">
+                    <span>JavaScript</span>
+                    <span>Angular</span>
+                    <span>SCSS</span>
+                    <span>GitLab CI/CD</span>
+                    <span>Agile</span>
+                    <span>Cypress</span>
+                    <span>Leaflet</span>
+
+                </div>
             </div>
 
             <div className="item">
@@ -67,6 +77,13 @@ function Experience() {
                         Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
                     </li>
                 </ul>
+                <div className="tech-stack">
+                    <span>Communication</span>
+                    <span>Time Management</span>
+                    <span>Flexibility</span>
+                    <span>Collaberation</span>
+                    <span>Empathy</span>
+                </div>
             </div>
         </div>
     )
