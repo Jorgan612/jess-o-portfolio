@@ -49,6 +49,7 @@ function Experience() {
                     <span>Angular</span>
                     <span>SCSS</span>
                     <span>GitLab CI/CD</span>
+                    <span>RESTful API</span>
                     <span>Agile</span>
                     <span>Cypress</span>
                     <span>Leaflet</span>
@@ -82,6 +83,7 @@ function Experience() {
                     <span>Time Management</span>
                     <span>Flexibility</span>
                     <span>Collaberation</span>
+                    <span>Clinical Documentation</span>
                     <span>Empathy</span>
                 </div>
             </div>
