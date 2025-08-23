@@ -28,7 +28,7 @@ function App() {
           <Menu select={select} selectedOption={selectedOption} />
         </div>
         <div className='footer-note'>
-          <p>This portfolio was built with <span className='highlight'>React</span> and deployed with <span className='highlight'>[insert deployment thing here]</span>.</p>
+          <p>I built portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
         </div>
       </div>
       <div className='vertical-divider'></div>

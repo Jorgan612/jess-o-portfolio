@@ -16,7 +16,9 @@ function Projects() {
                         <a className='highlight' href='https://github.com/Jorgan612/write-on' target='_blank'>Write On!</a>
                         <p>Currently under development, this is a passion project to help writers track their writing progress. In includes daily word count tracking, the ability to set goals, and unlock achievements for motivation.</p>
                         <div className='tech-stack'>
+                            <span>JavaScript</span>
                             <span>React</span>
+                            <span>React Router v7</span>
                             <span>SCSS</span>
                             <span>Chart.js</span>
                             <span>Figma</span>
@@ -31,11 +33,15 @@ function Projects() {
                     <img src={ketchupAll} alt='Gotta Ketchum All! logo' />
                     <div>
                         <a className='highlight' href='https://github.com/Jorgan612/Pokemon-Stretch-' target='_blank'>Gotta Ketchum All!</a>
-                        <p>Currently under development, this is a passion project to help writers track their writing progress. In includes daily word count tracking, the ability to set goals, and unlock achievements for motivation.</p>
+                        <p>A group project to practice React with the inclusion of a stretch goal to learn TypeScript and End-to-End testing with Cypress.</p>
                         <div className='tech-stack'>
+                            <span>JavaScript</span>
                             <span>React</span>
+                            <span>React Router v6</span>
+                            <span>TypeScript</span>
                             <span>SCSS</span>
-                            <span>Chart.js</span>
+                            <span>PokeApi</span>
+                            <span>Cypress</span>
                             <span>Figma</span>
                         </div>
 
