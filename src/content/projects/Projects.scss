@@ -1,0 +1,26 @@
+.project {
+    height: 25%;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    img {
+        height: 20vh;
+        width: 20vh;
+    }
+
+    div {
+        margin-left: 1rem;
+
+        a {
+            cursor: pointer;
+        }
+    }
+}

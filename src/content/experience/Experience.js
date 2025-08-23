@@ -3,7 +3,7 @@ import "./Experience.scss";
 
 function Experience() {
     return (
-        <div className="experience-section">
+        <>
             <div className="item">
                 <p className="employer">Mapware | Elizabeth, Colorado/Remote </p>
                 <p><span className="job-title highlight">Software Engineer:</span> January 2024 - January 2025</p>
@@ -85,7 +85,7 @@ function Experience() {
                     <span>Empathy</span>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
