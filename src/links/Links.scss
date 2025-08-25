@@ -3,14 +3,29 @@
     // flex-direction: column;
     // justify-content: flex-start;
     // height: 20%;
-    border: 2px solid orange;
+    // border: 2px solid orange;
 
     div {
         display: flex;
         // flex-direction: column;
         // align-items: flex-start;
         // justify-content: space-around;
+        // background-color:#00BBFF;
         height: 25%;
+
+        .icon {
+            font-size: 2rem;
+            // color:#00BBFF;
+            color: #008ec2;
+            margin: 0 1rem;
+        }
+
+        .icon:hover {
+            color:#00BBFF;
+            // color: #008ec2;
+            transition: .5s;
+            cursor: pointer;
+        }
     }
 
     a {

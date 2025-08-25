@@ -1,5 +1,5 @@
 import './Links.scss';
-// import email from '../images/email_icon.png';
+import { FaEnvelope, FaLinkedin, FaGithub, FaBook } from "react-icons/fa";
 
 function Links() {
 
@@ -7,11 +7,17 @@ function Links() {
         <div className='container'>
             <div>
                 <a href='mailto:Jorgan612@gmail.com' target='_blank'>
-                    {/* <img src={email}/>  */}
-                    Contact Me</a>
-                <a href='https://www.linkedin.com/in/jessicaorgan/' target='_blank'>LinkedIn</a>
-                <a href='https://github.com/Jorgan612' target='_blank'>GitHub</a>
-                <a href='https://app.thestorygraph.com/profile/jess_o612' target='_blank'>The StoryGraph</a>
+                    <FaEnvelope className='icon' />
+                </a>
+                <a href='https://www.linkedin.com/in/jessicaorgan/' target='_blank'>
+                    <FaLinkedin className='icon' />
+                </a>
+                <a href='https://github.com/Jorgan612' target='_blank'>
+                    <FaGithub className='icon' />
+                </a>
+                <a href='https://app.thestorygraph.com/profile/jess_o612' target='_blank'>
+                    <FaBook className='icon' />
+                </a>
             </div>
         </div>
     );

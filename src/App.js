@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { IconName } from "react-icons/fa";
 import './App.scss';
 
 import Menu from './menu/Menu';
