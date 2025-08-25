@@ -1,6 +1,24 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+a:hover, a:visited, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
 .project {
-    height: 25%;
     width: 100%;
+    margin-bottom: 4rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.project:hover {
+    background-color: #2e2e2e;
 }
 
 .details {
@@ -14,13 +32,11 @@
     img {
         height: 20vh;
         width: 20vh;
+        margin-left: 1rem;
     }
 
     div {
-        margin-left: 1rem;
-
-        a {
-            cursor: pointer;
-        }
+        margin: 0 1rem;
     }
+
 }

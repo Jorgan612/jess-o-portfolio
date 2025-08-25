@@ -1,12 +1,12 @@
   .menu {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    box-sizing:content-box;
+    box-sizing: content-box;
+    border: 2px solid yellow;
 
     div {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       font-weight: bold;
       border-radius: 4px;
       padding-right: 1rem;

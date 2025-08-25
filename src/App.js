@@ -24,11 +24,11 @@ function App() {
           <h3>Front End Software Engineer</h3>
         </div>
         <div className='selections'>
-          <Links />
           <Menu select={select} selectedOption={selectedOption} />
+          <Links />
         </div>
         <div className='footer-note'>
-          <p>I built portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
+          <p>I built this portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
         </div>
       </div>
       <div className='vertical-divider'></div>
