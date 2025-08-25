@@ -48,6 +48,7 @@ function Experience() {
                     <span>JavaScript</span>
                     <span>Angular</span>
                     <span>SCSS</span>
+                    <span>Figma</span>
                     <span>GitLab CI/CD</span>
                     <span>RESTful API</span>
                     <span>Agile</span>

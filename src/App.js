@@ -48,8 +48,10 @@ export default App;
 
     [ ] Make sure all content sections have overflow to enable scrollbar if needed to look the same.
     [ ] Fill out Project section
+      [ ] Make whole project clickable with hover styling/cursor indication
     [ ] Fill out Education section
-    [ ] 
+    [ ] Relocate section options to beneath title
+    [ ] Make links icons and stick in bottom right corner
 
   */
 }
