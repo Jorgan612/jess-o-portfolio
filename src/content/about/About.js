@@ -1,5 +1,5 @@
 import './About.scss';
-import '../../App.scss';
+import '../../app/App.scss';
 
 function About() {
     return(

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.scss';
 
-import Menu from './menu/Menu';
-import Links from './links/Links';
-import Content from "./content/Content";
+import Menu from '../menu/Menu';
+import Links from '../links/Links';
+import Content from "../content/Content";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState('About Me')

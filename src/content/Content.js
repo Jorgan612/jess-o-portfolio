@@ -4,7 +4,7 @@ import Projects from "./projects/Projects";
 import Education from "./education/Education";
 
 import './Content.scss';
-import '../App.scss';
+import '../app/App.scss';
 
 function Content({selectedOption}) {
 
