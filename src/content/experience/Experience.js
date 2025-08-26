@@ -44,7 +44,7 @@ function Experience() {
                         Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
                     </li>
                 </ul>
-                <div className="tech-stack">
+                <div className="skills">
                     <span>JavaScript</span>
                     <span>Angular</span>
                     <span>SCSS</span>
@@ -79,7 +79,7 @@ function Experience() {
                         Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
                     </li>
                 </ul>
-                <div className="tech-stack">
+                <div className="skills">
                     <span>Communication</span>
                     <span>Time Management</span>
                     <span>Flexibility</span>
@@ -88,6 +88,46 @@ function Experience() {
                     <span>Empathy</span>
                 </div>
             </div>
+            <div className="item">
+                <p className="employer">Tyco Integrated Security | Aurora, Colorado</p>
+                <p><span className="job-title highlight">National Data and Download Group:</span> May 2013 - March 2016</p>
+                <ul>
+                    <li>
+                        Communicated with clients to ensure the integrity and proper handling of their account details.
+                    </li>
+                    <li>
+                        Worked on special projects requiring an keen eye for detail to make updates on large scale national and commercial accounts.
+                    </li>
+                </ul>
+                <p><span className="job-title highlight">Simplex Grinnell Outbound and Inbound Support:</span> May 2011 - May 2013</p>
+                <ul>
+                    <li>
+                        Operated as a team lead, offering support to colleagues, ensuring efficient workflow and event delegation.
+                    </li>
+                </ul>
+                <p><span className="job-title highlight">Emergency Dispatch Operator and Inbound Support:</span> September 2010  - May 2011</p>
+                <ul>
+                    <li>
+                        Alerted clients and AHJ officials to live alarms in a timely and concise manner.
+                    </li>
+                    <li>
+                        Troubleshooting technical issues pertaining to client alarm system.
+                    </li>
+                </ul>
+                <div className="skills">
+                    <span>Communication</span>
+                    <span>Time Management</span>
+                    <span>Adaptability</span>
+                    <span>Resilience</span>
+                    <span>Team Coordination</span>
+                    <span>Attention to Detail</span>
+                    <span>Multitasking</span>
+                    <span>Data Entry Accuracy</span>
+                    <span>Conflict Resolution</span>
+                    <span>CRM Software Proficiency</span>
+                </div>
+            </div>
+
         </>
     )
 }

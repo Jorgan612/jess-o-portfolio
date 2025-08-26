@@ -15,6 +15,11 @@
     white-space: nowrap;
   }
 
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
   .highlight {
       color: #00BBFF !important;
       font-weight: bold !important;
@@ -24,7 +29,7 @@
   .left-content {
     display: inline;
     height: 100%;
-    width: 35%;
+    width: 40%;
     padding: 1rem 1rem 0rem 1rem;
 
     .selections {
@@ -32,22 +37,20 @@
       flex-direction: column;
       justify-content: space-between;
       height: 70%;
-      // border: 1px solid red;
     }
   }
 
   .vertical-divider {
     height: 100%;
-    border: 1px solid rgb(255, 255, 255, .2);
+    border: 1px solid rgb(255, 255, 255, .05);
     opacity: .2;
   }
 
   .right-content {
     display: flex;
     justify-content: center;
-    // display: inline;
     height: 100%;
-    width: 65%;
+    width: 60%;
     padding: 1rem;
     overflow-y: hidden;
   }
@@ -56,6 +59,7 @@
     color: #00BBFF;
     text-decoration: underline;
     font-size: 20px;
+    font-weight: 600;
   }
 
   .default {
@@ -65,7 +69,7 @@
   .footer-note {
     display: flex;
     align-items: flex-end;
-    height: 5%;
+    height: 75%;
     opacity: .5;
     font-size: 14px;
     margin-left: 1rem;

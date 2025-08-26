@@ -2,18 +2,16 @@
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
-    // border: 2px solid yellow;
 
     div {
       display: flex;
       justify-content: flex-start;
-      font-weight: bold;
       border-radius: 4px;
       padding-right: 1rem;
       cursor: pointer;
     }
 
-    span:hover {
+    div:hover {
       color: #00BBFF;
       transition: .5s;
     }

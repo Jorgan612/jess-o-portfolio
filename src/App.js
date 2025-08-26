@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { IconName } from "react-icons/fa";
 import './App.scss';
 
 import Menu from './menu/Menu';
@@ -10,9 +9,7 @@ function App() {
   const [selectedOption, setSelectedOption] = useState('About Me')
 
   const select = (option) => {
-    console.log("click!", option)
     setSelectedOption(option.name)
-    console.log('selectedOption', selectedOption)
   }
 
   return (
@@ -22,14 +19,16 @@ function App() {
           <header className="App-header">
             <span className='highlight'>Jess</span>ica Organ
           </header>
-          <h3>Front End Software Engineer</h3>
+          <p className='title'>Front End Software Engineer</p>
         </div>
         <div className='selections'>
           <Menu select={select} selectedOption={selectedOption} />
-          <Links />
-        </div>
-        <div className='footer-note'>
-          <p>I built this portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
+          <div>
+            <Links />
+            <div className='footer-note'>
+              <p>I built this portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className='vertical-divider'></div>
@@ -42,17 +41,3 @@ function App() {
 }
 
 export default App;
-
-
-{
-  /*
-
-    [ ] Make sure all content sections have overflow to enable scrollbar if needed to look the same.
-    [ ] Fill out Project section
-      [ ] Make whole project clickable with hover styling/cursor indication
-    [ ] Fill out Education section
-    [ ] Relocate section options to beneath title
-    [ ] Make links icons and stick in bottom right corner
-
-  */
-}

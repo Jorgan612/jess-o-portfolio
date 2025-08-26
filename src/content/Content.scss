@@ -2,14 +2,13 @@ section {
     display: flex;
     flex-direction: column;
     height: 90%;
-    width: 80%;
+    width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1rem;
 
     header {
-        text-decoration: underline;    
-        text-align: center;
+        text-decoration: underline;
         font-size: 50px;
         font-weight: bold;
     }
@@ -19,12 +18,11 @@ section {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: underline;
-    text-align: center;
     padding: 1rem 0;
     margin: 0 0 2rem 0;
 }
 
-.tech-stack {
+.skills {
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
