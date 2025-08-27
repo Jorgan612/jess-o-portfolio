@@ -1,9 +1,12 @@
+@import "../styles/variables.scss";
+@import "../styles/mixins.scss";
+
 .App {
   display: flex;
-  // justify-content: center;
+  justify-content: center;
   height: 100vh;
-  background-color: #1E1E1E;
-  color: #fff;
+  background-color: $background;
+  color: $default;
   font-size: 18px;
   overflow: hidden;
 
@@ -31,7 +34,7 @@
   .left-content {
     display: inline;
     height: 100%;
-    width: 35%;
+    width: 30%;
     padding: 2rem 1rem 0rem 2rem;
 
     .selections {
@@ -52,20 +55,20 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    width: 55%;
+    width: 45%;
     padding: 2rem 1rem 0rem 1rem;
     overflow-y: hidden;
   }
 
   .selected {
-    color: #00BBFF;
+    color: $highlight;
     text-decoration: underline;
     font-size: 20px;
     font-weight: 600;
   }
 
   .default {
-    color: #fff;
+    color: $default;
   }
 
   .footer-note {
@@ -86,14 +89,14 @@
 }
 
 ::-webkit-scrollbar-track {
-background: #1e1e1e;
+  background: $background;
 }
 
 ::-webkit-scrollbar-thumb {
-background: #008ec2;
-border-radius: 10px;
+  background: $highlight2;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #00BBFF;
+  background: $highlight;
 }

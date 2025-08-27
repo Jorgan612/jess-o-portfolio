@@ -34,10 +34,17 @@ function App() {
       <div className='vertical-divider'></div>
       <div className='right-content'>
         <Content selectedOption={selectedOption}/>
-
       </div>
     </div>
   );
 }
 
 export default App;
+
+{
+  /*
+    [ ] Media queries for smaller screen sizes tablet and mobile
+    [ ] Mixins and variables
+    [ ] 
+  */
+}
