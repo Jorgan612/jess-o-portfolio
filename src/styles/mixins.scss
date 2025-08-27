@@ -1,5 +1,5 @@
-@mixin flexbox($display, $direction, $justify, $align) {
-    display: $display;
+@mixin flexbox($direction, $justify, $align) {
+    display: flex;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
@@ -11,7 +11,10 @@
 }
 
 
-@mixin font($size, $weight) {
+@mixin font($color, $size, $weight, $decoration, $wrap) {
+    color: $color;
     font-size: $size;
     font-weight: $weight;
+    text-decoration: $decoration;
+    text-wrap: $wrap;
 }

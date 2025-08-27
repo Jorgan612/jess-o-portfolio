@@ -2,9 +2,8 @@
 @import "../styles/mixins.scss";
 
 .App {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+  @include flexbox(row, center, null);
+  @include size(100vh, null);
   background-color: $background;
   color: $default;
   font-size: 18px;
@@ -20,9 +19,7 @@
   }
 
   .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-wrap: nowrap;
+    @include font($default, 1.25rem, bold, null, nowrap);
   }
 
   .highlight {
@@ -33,38 +30,30 @@
 
   .left-content {
     display: inline;
-    height: 100%;
-    width: 30%;
+    @include size(100%, 30%);
     padding: 2rem 1rem 0rem 2rem;
 
     .selections {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      @include flexbox(column, space-between, null);
       height: 75%;
     }
   }
 
   .vertical-divider {
     height: 100%;
-    border: 1px solid rgb(255, 255, 255, .05);
+    border: 1px solid rgb(255, 255, 255, .5);
     opacity: .2;
   }
 
   .right-content {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 45%;
+    @include flexbox(row, center, null);
+    @include size(100%, 40%);
     padding: 2rem 1rem 0rem 1rem;
     overflow-y: hidden;
   }
 
   .selected {
-    color: $highlight;
-    text-decoration: underline;
-    font-size: 20px;
-    font-weight: 600;
+    @include font($highlight, 20px, 600, underline, null);
   }
 
   .default {
