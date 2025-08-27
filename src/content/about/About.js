@@ -15,7 +15,7 @@ function About() {
             </p>
             <div className='subsection'>Hobbies</div>
             <p>
-                Outside of my profession, <span className='highlight'>I love to read</span>. I tend to lean toward the fantasy genre but am not opposed to others, especially with a good book recommendation! <span className='highlight'>I love creative writing</span>, too. Whether I’m brainstorming story ideas or actively drafting one of my works in progress, I find it’s a wonderful way to express myself. When I’m not immersed in fictional worlds, I’m <span className='highlight'>gardening</span> or <span className='highlight'>hiking</span> with my partner to keep myself grounded.
+                Outside of my profession, <span className='highlight'>I love to read</span>. I tend to lean toward the fantasy genre but am not opposed to others, especially with a good book recommendation! <span className='highlight'>I love creative writing</span>, too. Whether I’m brainstorming story ideas or actively drafting one of my works in progress, I find it’s a wonderful way to express myself. Another lifetime hobby of mine is gaming, both of the tabletop and video game variety. When I’m not immersed in fictional worlds, I’m <span className='highlight'>gardening</span> or <span className='highlight'>hiking</span> with my partner to keep myself grounded.
             </p>
         </>
     )

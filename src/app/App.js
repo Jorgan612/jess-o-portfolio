@@ -26,7 +26,7 @@ function App() {
           <div>
             <Links />
             <div className='footer-note'>
-              <p>I built this portfolio using <span className='highlight'>React</span> and deployed it with <span className='highlight'>[insert deployment thing here]</span>.</p>
+              <p>I built this portfolio using <span className='highlight'>React</span> with <span className='highlight'>SCSS</span> and deployed with <span className='highlight'>Vercel</span>.</p>
             </div>
           </div>
         </div>
