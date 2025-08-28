@@ -1,9 +1,11 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
 .item {
     margin-bottom: 2rem;
 
     .employer {
-        font-weight: bold;
-        font-size: 20px;
+        @include font(null, 20px, bold, null, null);
     }
 
     .job-title {

@@ -1,28 +1,29 @@
+@import '../styles/variables.scss';
+@import '../styles/mixins.scss';
+
+
 .container {
     div {
         display: flex;
         height: 30%;
 
         .icon {
-            font-size: 2rem;
-            color: #008ec2;
+            @include font($highlight2, 2rem, null, null, null);
             margin: 0 1rem;
         }
 
         .icon:hover {
-            color:#00BBFF;
+            color:$highlight;
             cursor: pointer;
         }
     }
 
     a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
+        @include font($default, null, bold, none, null);
     }
 
     a:hover {
-        color: #00BBFF;
+        color: $highlight;
         transition: .5s;
         cursor: pointer;
     }

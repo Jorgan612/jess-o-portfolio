@@ -1,21 +1,20 @@
+@import '../styles/variables.scss';
+@import '../styles/mixins.scss';  
+  
   .menu {
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column, null, null);
     box-sizing: content-box;
+    min-width: 25%;
+    max-width: 25%;
+    padding-right: 1rem;
 
     div {
-      display: flex;
-      justify-content: flex-start;
-      min-width: 15%;
-      max-width: 15%;
       text-wrap: nowrap;
-      border-radius: 4px;
-      padding-right: 1rem;
       cursor: pointer;
     }
 
     div:hover {
-      color: #00BBFF;
+      color: $highlight;
       transition: .5s;
     }
 

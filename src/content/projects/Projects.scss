@@ -1,12 +1,8 @@
-a {
-    text-decoration: none;
-    color: inherit;
-    cursor: auto;
-}
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
-a:hover, a:visited, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+a {
+    @include font(inherit, null, null, none, null);
     cursor: auto;
 }
 
@@ -18,20 +14,16 @@ a:hover, a:visited, a:focus, a:active {
 }
 
 .project:hover {
-    background-color: #2e2e2e;
+    background-color: $highlight3;
 }
 
 .details {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+    @include flexbox(null, null, center);
     box-sizing: border-box;
 
 
     img {
-        height: 20vh;
-        width: 20vh;
+        @include size(20vh, null);
         margin-left: 1rem;
     }
 
