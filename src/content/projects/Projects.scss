@@ -7,7 +7,6 @@ a {
 }
 
 .project {
-    width: 100%;
     margin-bottom: 4rem;
     padding: 1rem 0;
     cursor: pointer;
@@ -19,6 +18,7 @@ a {
 
 .details {
     @include flexbox(null, null, center);
+    @include size(null, 100%);
     box-sizing: border-box;
 
 
@@ -28,6 +28,8 @@ a {
     }
 
     div {
+        display: flex;
+        flex-wrap: wrap;
         margin: 0 1rem;
     }
 

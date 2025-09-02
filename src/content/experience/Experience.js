@@ -54,7 +54,6 @@ function Experience() {
                     <span>Agile</span>
                     <span>Cypress</span>
                     <span>Leaflet</span>
-
                 </div>
             </div>
 

@@ -20,11 +20,20 @@
 
     a {
         @include font($default, null, bold, none, null);
+        display: inline-block;
+        transition: transform 0.2s ease;
     }
 
     a:hover {
         color: $highlight;
-        transition: .5s;
         cursor: pointer;
+        transition: .5s;
+        animation: jump 0.3s ease;
+    }
+
+    @keyframes jump {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
     }
 }
