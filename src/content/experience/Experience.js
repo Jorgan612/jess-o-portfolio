@@ -51,7 +51,7 @@ function Experience() {
                     <span>Figma</span>
                     <span>GitLab CI/CD</span>
                     <span>RESTful API</span>
-                    <span>Agile</span>
+                    <span>Agile Methodologies</span>
                     <span>Cypress</span>
                     <span>Leaflet</span>
                 </div>

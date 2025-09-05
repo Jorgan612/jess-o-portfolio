@@ -44,7 +44,5 @@ export default App;
 {
   /*
     [ ] Media queries for smaller screen sizes tablet and mobile
-    [ ] Mixins and variables
-    [ ] Fix issue with content width and skills not wrapping
   */
 }
