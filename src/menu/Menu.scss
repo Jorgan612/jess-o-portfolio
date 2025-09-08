@@ -4,9 +4,9 @@
   .menu {
     @include flexbox(column, null, null);
     box-sizing: content-box;
-    min-width: 25%;
-    max-width: 25%;
-    padding-right: 1rem;
+    // min-width: 25%;
+    // max-width: 25%;
+    // padding-right: 1rem;
 
     div {
       text-wrap: nowrap;

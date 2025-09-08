@@ -2,20 +2,18 @@
 @import '../styles/mixins.scss';
 
 
-.container {
-    div {
-        display: flex;
-        height: 30%;
+.links {
+    display: flex;
+    height: 30%;
 
-        .icon {
-            @include font($highlight2, 2rem, null, null, null);
-            margin: 0 1rem;
-        }
+    .icon {
+        @include font($highlight2, 2rem, null, null, null);
+        margin: 0 1rem;
+    }
 
-        .icon:hover {
-            color:$highlight;
-            cursor: pointer;
-        }
+    .icon:hover {
+        color:$highlight;
+        cursor: pointer;
     }
 
     a {

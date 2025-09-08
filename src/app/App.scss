@@ -1,5 +1,8 @@
 @import "../styles/variables.scss";
 @import "../styles/mixins.scss";
+@import "../menu/Menu.scss";
+@import "../content/Content.scss";
+@import "../links/Links.scss";
 
 .App {
   @include flexbox(row, center, null);
@@ -14,7 +17,8 @@
   }
 
   .App-header {
-    font-size: clamp(2rem, 15vw, 5rem);
+    font-size: clamp(2rem, 15vw, 3rem);
+    // font-size: 100px;
     white-space: nowrap;
   }
 
@@ -39,7 +43,7 @@
     }
   }
 
-  .vertical-divider {
+  .divider {
     height: 100%;
     border: 1px solid rgb(255, 255, 255, .5);
     opacity: .1;
@@ -50,6 +54,10 @@
     @include size(100%, 40%);
     padding: 2rem 1rem 0rem 1rem;
     overflow-y: hidden;
+
+    section {
+      padding: 0rem;
+    }
   }
 
   .selected {
@@ -88,4 +96,69 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: $highlight;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 400px) {
+
+  .App {
+     @include flexbox(column, null, center);
+    //  border: 2px solid yellow;
+
+     .left-content {
+        @include size(50%, 85%);
+        padding: none;
+        // border: 1px solid orange;
+
+      .selections {
+        @include flexbox(row, space-between, null);
+        @include font($default, 18px, normal, none, wrap !important);
+        height: 45%;
+
+        .menu {
+          @include flexbox(column, space-around, null);
+          @include size(100%, 75% !important);
+          // @include font($default, 18px, normal, none, wrap);
+          // border: 2px solid pink;
+
+          // div {
+          //   text-wrap: wrap;
+          // }
+        }
+
+        div > .links {
+          @include size(null, 75% !important);
+          // border: 2px solid blue !important;
+
+          .icon {
+            @include font($highlight2, 1.5rem, null, null, null);
+            margin: 0 1rem;
+          }
+
+          .icon:hover {
+              color:$highlight;
+              cursor: pointer;
+          }
+        }
+      }
+     }
+
+     .divider {
+        @include size(0px, 85%);
+        margin-top: 1rem;
+     }
+
+     .right-content {
+        @include size(null, 85%);
+        // padding: none;
+        margin-top: 1rem;
+     }
+  }
+  
+  .App-header {
+    font-size: 20px;
+    // border: 1px solid red;
+  }
 }
