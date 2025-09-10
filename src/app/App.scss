@@ -157,6 +157,7 @@
   .details {
     @include flexbox(column, center, null);
     @include font($default, 16px, null, null, null);
+    // work on skill bubbles size
   }
 
 }
