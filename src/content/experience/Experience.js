@@ -5,6 +5,54 @@ function Experience() {
     return (
         <>
             <div className="item">
+                <p className="employer">Undreamt Software Solutions | Elizabeth, Colorado/Remote </p>
+                <p><span className="job-title highlight">Freelancer</span> September 2025 - Present</p>
+                <ul>
+                    <li>
+                        Developed custom GPT solutions tailored to client workflows, enhancing efficiency and productivity.
+                    </li>
+                    <li>
+                       Partnered with cross-functional teams and stakeholders to clarify requirements and deliver high-quality outcomes.
+                    </li>
+                    <li>
+                        Applied analytical thinking and meticulous attention to detail to consistently surpass client expectations.
+                    </li>
+                </ul>
+
+                <p><span className="job-title highlight">Junior Front-End Software Engineer:</span> November 2022 - January 2024</p>
+                <ul>
+                    <li>
+                        Built responsive, visually engaging UI components using Angular.
+                    </li>
+                    <li>
+                        Maintained high standards of code quality through rigorous testing and attention to detail.
+                    </li>
+                    <li>
+                        Partnered with back-end engineers to integrate APIs and deliver seamless end-to-end user experiences.
+                    </li>
+                    <li>
+                        Participated in agile ceremonies and contributed to sprint planning, retrospectives, and team demos.
+                    </li>
+                    <li>
+                        Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
+                    </li>
+                </ul>
+                <div className="skills">
+                    <span>JavaScript</span>
+                    <span>Angular</span>
+                    <span>SCSS</span>
+                    <span>Figma</span>
+                    <span>GitLab CI/CD</span>
+                    <span>RESTful API</span>
+                    <span>Agile Methodologies</span>
+                    <span>Cypress</span>
+                    <span>Leaflet</span>
+                </div>
+            </div>
+
+
+{/* ABOVE IN PROGRESS */}
+            <div className="item">
                 <p className="employer">Mapware | Elizabeth, Colorado/Remote </p>
                 <p><span className="job-title highlight">Software Engineer:</span> January 2024 - January 2025</p>
                 <ul>

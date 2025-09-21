@@ -52,7 +52,7 @@
   .right-content {
     @include flexbox(row, center, null);
     @include size(100%, 40%);
-    padding: 2rem 1rem 0rem 1rem;
+    padding: 2rem 0rem 0rem 1rem;
     overflow-y: hidden;
 
     section {
@@ -101,13 +101,13 @@
 
 /* Media Queries */
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
   .App {
      @include flexbox(column, null, center);
 
      .left-content {
-        @include size(50%, 85%);
+        @include size(50%, 95%);
         padding: none;
 
       .selections {
@@ -142,8 +142,21 @@
      }
 
      .right-content {
-        @include size(null, 85%);
-        margin-top: 1rem;
+        @include size(null, 95%);
+        padding: 0;
+
+        section .skills {
+          @include font(null, 12px, bold, null, wrap);
+          width: 100%;
+        }
+
+        section .project {
+            margin: 0;
+          }
+
+        section .details div {
+          margin: 0;
+        }
      }
   }
   
@@ -157,7 +170,6 @@
   .details {
     @include flexbox(column, center, null);
     @include font($default, 16px, null, null, null);
-    // work on skill bubbles size
   }
 
 }

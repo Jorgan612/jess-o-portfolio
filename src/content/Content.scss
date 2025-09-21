@@ -6,7 +6,7 @@ section {
     @include size(90%, 100%);
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 1rem;
+    padding: 0rem 1rem !important;
 
     header {
         @include font(null, 50px, bold, null, null);

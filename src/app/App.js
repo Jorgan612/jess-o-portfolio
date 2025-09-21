@@ -40,9 +40,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /*
-    [ ] Media queries for smaller screen sizes tablet and mobile
-  */
-}

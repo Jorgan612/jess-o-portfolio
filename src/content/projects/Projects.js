@@ -77,7 +77,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href='https://github.com/Jorgan612/Pokemon-Stretch-' target='_blank'>
+            <a href='https://github.com/Jorgan612/Overlook-Hotel' target='_blank'>
                 <div className='project'>
                     <div className='details'>
                         <img src={overlookHotel} alt='Overlook Hotel logo' />
@@ -98,7 +98,6 @@ function Projects() {
            </a> 
         </>
     )
-
 }
 
 
