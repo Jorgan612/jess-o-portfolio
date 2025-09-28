@@ -24,12 +24,11 @@ a {
 
     img {
         @include size(20vh, null);
-        margin-left: 1rem;
+        margin: 0rem 1rem;
     }
 
     div {
         display: flex;
         flex-wrap: wrap;
-        margin: 0 1rem;
     }
 }

@@ -101,6 +101,8 @@
 
 /* Media Queries */
 
+/* Mobile */
+
 @media (max-width: 450px) {
 
   .App {
@@ -170,6 +172,31 @@
   .details {
     @include flexbox(column, center, null);
     @include font($default, 16px, null, null, null);
+  }
+
+}
+
+
+/* Tablet */
+
+@media (min-width: 451px) and (max-width: 912px) {
+
+  .App {
+    @include flexbox(null, space-between, null);
+    @include size(75vh, 100vw);
+
+    .left-content {
+      @include size(85%, 40%);
+    }
+
+    .right-content {
+      @include size(85%, 60%);
+    }
+
+    .details {
+      @include flexbox(column, center, null);
+      @include font($default, 16px, null, null, null);
+    }
   }
 
 }
