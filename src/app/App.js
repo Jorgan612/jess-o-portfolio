@@ -6,10 +6,10 @@ import Links from '../links/Links';
 import Content from "../content/Content";
 
 function App() {
-  const [selectedOption, setSelectedOption] = useState('About Me')
+  const [selectedOption, setSelectedOption] = useState('About Me');
 
   const select = (option) => {
-    setSelectedOption(option.name)
+    setSelectedOption(option.name);
   }
 
   return (
@@ -19,7 +19,7 @@ function App() {
           <header className="App-header">
             <span className='highlight'>Jess</span>ica Organ
           </header>
-          <p className='title'>Front End Software Engineer</p>
+          <p className='title'>Front-End Software Engineer</p>
         </div>
         <div className='selections'>
           <Menu select={select} selectedOption={selectedOption} />

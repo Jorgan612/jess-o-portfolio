@@ -6,7 +6,7 @@ function Experience() {
         <>
             <div className="item">
                 <p className="employer">Undreamt Software Solutions | Elizabeth, Colorado/Remote </p>
-                <p><span className="job-title highlight">Freelancer</span> September 2025 - Present</p>
+                <p><span className="job-title highlight">Freelancer:</span> September 2025 - Present</p>
                 <ul>
                     <li>
                         Developed custom GPT solutions tailored to client workflows, enhancing efficiency and productivity.
