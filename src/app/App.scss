@@ -200,3 +200,25 @@
   }
 
 }
+
+@media (min-height: 1024px) and (max-height: 1360px) {
+
+  .App {
+    @include flexbox(null, space-between, null);
+    @include size(85vh, 100vw);
+
+    .left-content {
+      @include size(100%, 40%);
+    }
+
+    .right-content {
+      @include size(100%, 60%);
+    }
+
+    .details {
+      @include flexbox(column, center, null);
+      @include font($default, 16px, null, null, null);
+    }
+  }
+  
+}

@@ -20,14 +20,16 @@ function Experience() {
                 </ul>
                 <div className="skills">
                     <span>Odoo</span>
-                    <span>Custom GPTS</span>
+                    <span>n8n</span>
+                    <span>Scribe</span>
+                    <span>AI</span>
+                    <span>Custom GPTs</span>
                     <span>ChatGPT API</span>
                     <span>Collaberation</span>
+                    <span>Communication</span>
+                    <span>Problem Solving</span>
                 </div>
             </div>
-
-
-{/* ABOVE IN PROGRESS */}
             <div className="item">
                 <p className="employer">Mapware | Elizabeth, Colorado/Remote </p>
                 <p><span className="job-title highlight">Software Engineer:</span> January 2024 - January 2025</p>
@@ -73,11 +75,12 @@ function Experience() {
                     <span>Angular</span>
                     <span>SCSS</span>
                     <span>Figma</span>
+                    <span>Git</span>
                     <span>GitLab CI/CD</span>
                     <span>RESTful API</span>
-                    <span>Agile Methodologies</span>
                     <span>Cypress</span>
                     <span>Leaflet</span>
+                    <span>Agile Methodologies</span>
                 </div>
             </div>
 
@@ -103,12 +106,12 @@ function Experience() {
                     </li>
                 </ul>
                 <div className="skills">
-                    <span>Communication</span>
-                    <span>Time Management</span>
+                    <span>Empathy</span>
                     <span>Flexibility</span>
                     <span>Collaberation</span>
+                    <span>Communication</span>
+                    <span>Time Management</span>
                     <span>Clinical Documentation</span>
-                    <span>Empathy</span>
                 </div>
             </div>
             <div className="item">
@@ -138,13 +141,13 @@ function Experience() {
                     </li>
                 </ul>
                 <div className="skills">
+                    <span>Resilience</span>
+                    <span>Multitasking</span>
+                    <span>Adaptability</span>
                     <span>Communication</span>
                     <span>Time Management</span>
-                    <span>Adaptability</span>
-                    <span>Resilience</span>
                     <span>Team Coordination</span>
                     <span>Attention to Detail</span>
-                    <span>Multitasking</span>
                     <span>Data Entry Accuracy</span>
                     <span>Conflict Resolution</span>
                     <span>CRM Software Proficiency</span>
