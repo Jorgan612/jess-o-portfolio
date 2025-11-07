@@ -1,15 +1,16 @@
+import { forwardRef } from 'react';
 import About from "./about/About";
-import Experience from  "./experience/Experience";
+import Experience from "./experience/Experience";
 import Projects from "./projects/Projects";
 import Education from "./education/Education";
 
 import './Content.scss';
 import '../app/App.scss';
 
-function Content({selectedOption}) {
+const Content = forwardRef(({ selectedOption }, ref) => { 
 
     return (
-        <section>
+        <section ref={ref}> 
             <header>
                 {selectedOption}
             </header>
@@ -19,6 +20,6 @@ function Content({selectedOption}) {
             {selectedOption === 'Education' && <Education />}
         </section>
     )
-}
+}); 
 
 export default Content;

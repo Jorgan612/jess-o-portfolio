@@ -1,12 +1,24 @@
-import { useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import './App.scss';
 
 import Menu from '../menu/Menu';
 import Links from '../links/Links';
 import Content from "../content/Content";
 
+
 function App() {
   const [selectedOption, setSelectedOption] = useState('About Me');
+  const contentRef = useRef(null);
+
+  useEffect(() => {
+
+    contentRef.current.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+
+  }, [selectedOption])
 
   const select = (option) => {
     setSelectedOption(option.name);
@@ -33,7 +45,7 @@ function App() {
       </div>
       <div className='divider'></div>
       <div className='right-content'>
-        <Content selectedOption={selectedOption}/>
+        <Content selectedOption={selectedOption} ref={contentRef}/>
       </div>
     </div>
   );
