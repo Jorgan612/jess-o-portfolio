@@ -6,7 +6,7 @@
 @import "../content/projects/Projects.scss";
 
 .App {
-  @include flexbox(row, center, null);
+  @include flexbox(row, center, center);
   @include size(100vh, null);
   background-color: $background;
   color: $default;
@@ -39,14 +39,14 @@
 
     .selections {
       @include flexbox(column, space-between, null);
-      height: 75%;
+      height: 80%;
     }
   }
 
   .divider {
-    height: 100%;
-    border: 1px solid rgb(255, 255, 255, .5);
-    opacity: .1;
+    height: 95%;
+    border: 1px solid rgb(255, 255, 255, .1);
+    color: rgb(255, 255, 255, .1);
   }
 
   .right-content {

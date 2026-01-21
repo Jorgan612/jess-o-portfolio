@@ -20,8 +20,10 @@ function Projects() {
                             <div className='skills'>
                                 <span>JavaScript</span>
                                 <span>React</span>
+                                <span>TypeScript</span>
                                 <span>React Router v7</span>
                                 <span>SCSS</span>
+                                <span>Date-fns</span>
                                 <span>Chart.js</span>
                                 <span>Figma</span>
                                 <span>VS Code</span>

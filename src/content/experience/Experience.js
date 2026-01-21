@@ -4,6 +4,26 @@ import "./Experience.scss";
 function Experience() {
     return (
         <>
+            <div className='item'>
+                <p className='employer'>Mentors in Tech (MinT)</p> 
+                <p><span className='job-title highlight'>Mentor:</span> November 2025 - Present</p>
+                <ul>
+                    <li>
+                        Volunteered time for one-on-one professional guidance for students entering the tech industry by imparting real-world insights, career coaching, and support during the transition from classroom to professional setting.
+                    </li>
+                </ul>
+                <div className="skills">
+                    <span>Career Coaching</span>
+                    <span>Networking</span>
+                    <span>Constructive Feedback</span>
+                    <span>Technical Interview Preparation</span>
+                    <span>Collaberation</span>
+                    <span>Communication</span>
+                    <span>Resume and Portfolio Review</span>
+                    <span>Problem Solving</span>
+                </div>
+            </div>
+
             <div className="item">
                 <p className="employer">Undreamt Software Solutions | Elizabeth, Colorado/Remote </p>
                 <p><span className="job-title highlight">Freelancer:</span> September 2025 - November 2025</p>
@@ -84,6 +104,10 @@ function Experience() {
                 </div>
             </div>
 
+            <div className="divider"></div>
+            <div className="gap-context">Attended Turing School of Software and Design, Frontend Development Program, July 2021 - April 2022</div>
+            <div className="divider"></div>
+
             <div className="item">
                 <p className="employer">Mountain View Pain Center | Centennial, Colorado</p>
                 <p><span className="job-title highlight">Physical Therapist Assistant:</span> November 2018 - June 2021</p>
@@ -114,6 +138,11 @@ function Experience() {
                     <span>Clinical Documentation</span>
                 </div>
             </div>
+
+            <div className="divider"></div>
+            <div className="gap-context">Attended Arapahoe Community College, Physical Therapy Assistant AAS, August 2016 - May 2018</div>
+            <div className="divider"></div>
+
             <div className="item">
                 <p className="employer">Tyco Integrated Security | Aurora, Colorado</p>
                 <p><span className="job-title highlight">National Data and Download Group:</span> May 2013 - March 2016</p>
@@ -122,9 +151,25 @@ function Experience() {
                         Communicated with clients to ensure the integrity and proper handling of their account details.
                     </li>
                     <li>
-                        Worked on special projects requiring an keen eye for detail to make updates on large scale national and commercial accounts.
+                        Worked on special projects requiring a keen eye for detail to make updates on large scale national and commercial accounts.
                     </li>
                 </ul>
+                <div className="skills">
+                    <span>Resilience</span>
+                    <span>Multitasking</span>
+                    <span>Adaptability</span>
+                    <span>Communication</span>
+                    <span>Time Management</span>
+                    <span>Team Coordination</span>
+                    <span>Attention to Detail</span>
+                    <span>Data Entry Accuracy</span>
+                    <span>Conflict Resolution</span>
+                    <span>CRM Software Proficiency</span>
+                </div>
+            </div>
+
+            <div className="item">
+                <p className="employer">ADT | Aurora, Colorado</p>
                 <p><span className="job-title highlight">Simplex Grinnell Outbound and Inbound Support:</span> May 2011 - May 2013</p>
                 <ul>
                     <li>

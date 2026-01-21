@@ -12,3 +12,8 @@
         text-decoration: underline;
     }
 }
+
+.gap-context {
+    @include font(rgb(255, 255, 255, .3), 16px, null, null, null);
+    padding: 2rem 0rem;
+}
