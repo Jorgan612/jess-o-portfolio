@@ -5,7 +5,7 @@ function Experience() {
     return (
         <>
             <div className='item'>
-                <p className='employer'>Mentors in Tech (MinT)</p> 
+                <p className='employer'>Mentors in Tech (MinT) | Elizabeth, Colorado/Remote</p> 
                 <p><span className='job-title highlight'>Mentor:</span> November 2025 - Present</p>
                 <ul>
                     <li>
