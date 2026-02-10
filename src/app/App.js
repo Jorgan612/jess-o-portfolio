@@ -38,7 +38,7 @@ function App() {
           <div>
             <Links />
             <div className='footer-note'>
-              <p>I built this portfolio using <a href='https://react.dev/' target='_blank'><span className='highlight'>React</span></a> with <a href='https://sass-lang.com/' target='_blank'><span className='highlight'>SCSS</span></a> and deployed with <a href='https://vercel.com/' target='_blank'><span className='highlight'>Vercel</span></a>.</p>
+              <p>I built this portfolio using <a href='https://react.dev/' target='_blank' rel='noopener noreferrer'><span className='highlight'>React</span></a> with <a href='https://sass-lang.com/' target='_blank' rel='noopener noreferrer'><span className='highlight'>SCSS</span></a> and deployed with <a href='https://vercel.com/' target='_blank' rel='noopener noreferrer'><span className='highlight'>Vercel</span></a>.</p>
             </div>
           </div>
         </div>

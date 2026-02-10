@@ -11,7 +11,7 @@ function Projects() {
     return (
         <>
             <div className='subsection'>Current Project</div>
-            <a href='https://github.com/Jorgan612/write-on' target='_blank'>
+            <a href='https://github.com/Jorgan612/write-on' target='_blank' rel='noopener noreferrer'>
                 <div className='project'>
                     <div className='details'>
                         <img src={woLogo} alt='Write On logo'></img>
@@ -34,7 +34,7 @@ function Projects() {
                 </div>
             </a>
             <div className='subsection'>My Time at Turing</div>
-            <a href='https://github.com/Worth-Wild' target='_blank'>
+            <a href='https://github.com/Worth-Wild' target='_blank' rel='noopener noreferrer'>
                 <div className='project'>
                     <div className='details'>
                         <img src={worthWild} alt='Worth Wild' />
@@ -57,7 +57,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href='https://github.com/Jorgan612/Pokemon-Stretch-' target='_blank'>
+            <a href='https://github.com/Jorgan612/Pokemon-Stretch-' target='_blank' rel='noopener noreferrer'>
                 <div className='project'>
                     <div className='details'>
                         <img src={ketchupAll} alt='Gotta Ketchum All! logo' />
@@ -79,7 +79,7 @@ function Projects() {
                     </div>
                 </div>
             </a>
-            <a href='https://github.com/Jorgan612/Overlook-Hotel' target='_blank'>
+            <a href='https://github.com/Jorgan612/Overlook-Hotel' target='_blank' rel='noopener noreferrer'>
                 <div className='project'>
                     <div className='details'>
                         <img src={overlookHotel} alt='Overlook Hotel logo' />
