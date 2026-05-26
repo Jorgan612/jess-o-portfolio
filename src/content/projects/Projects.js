@@ -23,6 +23,9 @@ function Projects() {
                                 <span>TypeScript</span>
                                 <span>React Router v7</span>
                                 <span>SCSS</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
                                 <span>Date-fns</span>
                                 <span>Chart.js</span>
                                 <span>Figma</span>
