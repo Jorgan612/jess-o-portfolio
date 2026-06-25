@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import './App.scss';
+import { Analytics } from '@vercel/analytics/react';
 
 import Menu from '../menu/Menu';
 import Links from '../links/Links';
@@ -47,6 +48,7 @@ function App() {
       <div className='right-content'>
         <Content selectedOption={selectedOption} ref={contentRef}/>
       </div>
+      <Analytics />
     </div>
   );
 }
