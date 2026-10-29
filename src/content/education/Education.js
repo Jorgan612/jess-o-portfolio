@@ -8,10 +8,10 @@ function Education() {
         <>
             <div className='item'>
                 <p className='employer'>Turing School of Software and Design</p>
-                <p><span className='job-title highlight'>Frontend Development Program:</span> July 2021 - April 2022</p>
+                <p><span className='job-title highlight'> ACCET-Accredited Frontend Engineering Certificate:</span> July 2021 - April 2022</p>
                 <ul>
                     <li>
-                        An intensive, ACCET-accredited program focused on frontend technologies and agile methodologies.
+                        An intensive 1,500+ hour project-based program focused on frontend architecture, JavaScript/React/TypeScript, TDD, and agile methodologies.
                     </li>
                 </ul>
 
@@ -22,7 +22,7 @@ function Education() {
                 <p><span className='job-title highlight'>Physical Therapy Assistant AAS:</span> August 2016 - May 2018</p>
                 <ul>
                     <li>
-                        A rigorous, 2-year program accredited by CAPTE. License obtained by passing the NPTE, administered by FSBPT. 
+                        Licensed Physical Therapist Assistant (NPTE certified).
                     </li>
                 </ul>
             </div>
