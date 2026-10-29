@@ -6,10 +6,13 @@ function Experience() {
         <>
             <div className='item'>
                 <p className='employer'>Mentors in Tech (MinT) | Elizabeth, Colorado/Remote</p> 
-                <p><span className='job-title highlight'>Mentor:</span> November 2025 - Present</p>
+                <p><span className='job-title highlight'>Mentor:</span> November 2025 - November 2026</p>
                 <ul>
                     <li>
-                        Volunteered time for one-on-one professional guidance for students entering the tech industry by imparting real-world insights, career coaching, and support during the transition from classroom to professional setting.
+                        Provided targeted one-on-one technical and career guidance for early-career developers and computer science students transitioning into the software industry.
+                    </li>
+                    <li>
+                        Conducted mock technical interviews, code reviews, and architectural deep dives to foster engineering best practices and industry readiness.
                     </li>
                 </ul>
                 <div className="skills">
@@ -29,13 +32,10 @@ function Experience() {
                 <p><span className="job-title highlight">Freelancer:</span> September 2025 - November 2025</p>
                 <ul>
                     <li>
-                        Developed custom GPT solutions tailored to client workflows, enhancing efficiency and productivity.
+                        Architected and deployed tailored GPT and AI workflow automation tools to optimize client operations and increase process efficiency.
                     </li>
                     <li>
-                       Partnered with cross-functional teams and stakeholders to clarify requirements and deliver high-quality outcomes.
-                    </li>
-                    <li>
-                        Applied analytical thinking and meticulous attention to detail to consistently surpass client expectations.
+                       Partnered directly with stakeholders to gather technical requirements, scope deliverables, and maintain open communication throughout rapid sprint cycles.
                     </li>
                 </ul>
                 <div className="skills">
@@ -55,39 +55,29 @@ function Experience() {
                 <p><span className="job-title highlight">Software Engineer:</span> January 2024 - January 2025</p>
                 <ul>
                     <li>
-                        Worked in the photogrammetry application that processed geotagged images into 2D/3D terrain models.
+                        Co-developed and deployed an adaptive AI/ML asset detection product using computer vision (object detection and segmentation) for a $2M defense contract, automating and identifying endangered species and invasive flora across military installations.
                     </li>
                     <li>
-                        Owned key UI components, enhancing user experience through thoughtful design, leading the implementation of features such as map labeling and contour line adjustment controls.
+                        Owned core UI modules for photogrammetry terrain modeling tools in Angular, developing key interactive features including custom map labeling and contour line adjustment controls using Leaflet.
                     </li>
                     <li>
-                        Collaborated and communicated with multiple teams to refine requirements and ensure intuitive UX.
-
+                        Refactored legacy frontend codebases to improve component reusability,  state management clarity, and application performance.
                     </li>
                     <li>
-                        Refactored legacy code to improve maintainability and scalability across the front-end architecture.
-                    </li>
-                    <li>
-                        Conducted code reviews and mentored junior engineers, contributing to team growth and best practices.
+                        Led technical code reviews and mentored junior engineers, establishing team standards for maintainable code and UI performance optimization.
                     </li>
                 </ul>
 
                 <p><span className="job-title highlight">Junior Front-End Software Engineer:</span> November 2022 - January 2024</p>
                 <ul>
                     <li>
-                        Built responsive, visually engaging UI components using Angular.
+                        Engineered and mapped the relationship structure for an Identity and Access Management (IAM) system using Role-Based (RBAC) and Attribute-Based (ABAC) Access Control models, enabling full compliance with CMMC and DoD IL4 standards.
                     </li>
                     <li>
-                        Maintained high standards of code quality through rigorous testing and attention to detail.
+                        Built modular, accessible frontend components in Angular and collaborated with backend teams to establish clean REST API contracts.
                     </li>
                     <li>
-                        Partnered with back-end engineers to integrate APIs and deliver seamless end-to-end user experiences.
-                    </li>
-                    <li>
-                        Participated in agile ceremonies and contributed to sprint planning, retrospectives, and team demos.
-                    </li>
-                    <li>
-                        Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
+                        Active participant in daily standups, sprint planning, backlog grooming, and team demos, consistently hitting velocity targets and earning a promotion within 14 months.
                     </li>
                 </ul>
                 <div className="skills">
@@ -113,20 +103,10 @@ function Experience() {
                 <p><span className="job-title highlight">Physical Therapist Assistant:</span> November 2018 - June 2021</p>
                   <ul>
                     <li>
-                        Maintained open communication and collaboration with providers in a multidisciplinary pain clinic to ensure positive patient outcomes.
-
+                        Collaborated with multidisciplinary healthcare providers to execute complex treatment plans and optimize patient outcomes.
                     </li>
                     <li>
-                        Leveraged critical thinking and adaptability to overcome patient-specific challenges.
-                    </li>
-                    <li>
-                        Educated patients on their tailored plan of care and important precautions to accelerate patient outcomes.
-                    </li>
-                    <li>
-                        Performed telehealth visits, effectively achieving patient outcomes in a remote environment.
-                    </li>
-                    <li>
-                        Actively sought feedback and implemented improvements, leading to consistent delivery of high-quality code and a promotion within 14 months.
+                        Adapted treatment strategies dynamically to individual patient requirements and conducted effective telehealth consultations in a remote setup.
                     </li>
                 </ul>
                 <div className="skills">
@@ -144,14 +124,11 @@ function Experience() {
             <div className="divider"></div>
 
             <div className="item">
-                <p className="employer">Tyco Integrated Security | Aurora, Colorado</p>
-                <p><span className="job-title highlight">National Data and Download Group:</span> May 2013 - March 2016</p>
+                <p className="employer">Tyco Integrated Security & ADT | Aurora, Colorado</p>
+                <p><span className="job-title highlight">National Data and Download Group:</span> September 2010 - March 2016</p>
                 <ul>
                     <li>
-                        Communicated with clients to ensure the integrity and proper handling of their account details.
-                    </li>
-                    <li>
-                        Worked on special projects requiring a keen eye for detail to make updates on large scale national and commercial accounts.
+                        Led outbound/inbound support teams, delegating critical workflows during live emergency response and maintaining data integrity for high-profile national accounts.
                     </li>
                 </ul>
                 <div className="skills">
@@ -167,38 +144,6 @@ function Experience() {
                     <span>CRM Software Proficiency</span>
                 </div>
             </div>
-
-            <div className="item">
-                <p className="employer">ADT | Aurora, Colorado</p>
-                <p><span className="job-title highlight">Simplex Grinnell Outbound and Inbound Support:</span> May 2011 - May 2013</p>
-                <ul>
-                    <li>
-                        Operated as a team lead, offering support to colleagues, ensuring efficient workflow and event delegation.
-                    </li>
-                </ul>
-                <p><span className="job-title highlight">Emergency Dispatch Operator and Inbound Support:</span> September 2010  - May 2011</p>
-                <ul>
-                    <li>
-                        Alerted clients and AHJ officials to live alarms in a timely and concise manner.
-                    </li>
-                    <li>
-                        Troubleshooting technical issues pertaining to client alarm system.
-                    </li>
-                </ul>
-                <div className="skills">
-                    <span>Resilience</span>
-                    <span>Multitasking</span>
-                    <span>Adaptability</span>
-                    <span>Communication</span>
-                    <span>Time Management</span>
-                    <span>Team Coordination</span>
-                    <span>Attention to Detail</span>
-                    <span>Data Entry Accuracy</span>
-                    <span>Conflict Resolution</span>
-                    <span>CRM Software Proficiency</span>
-                </div>
-            </div>
-
         </>
     )
 }
